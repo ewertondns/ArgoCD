@@ -11,6 +11,8 @@ spec:
     repoURL: https://github.com/apache/airflow.git
     targetRevision: "2.7.1"
     chart: airflow
+  helm:
+      version: v3
   destination:
     server: https://kubernetes.default.svc
     namespace: airflow-ewert
